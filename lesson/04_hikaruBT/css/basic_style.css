@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+/*
+Theme Name: SUBHAND
+Author: SUBHAND.LLC
+Author URL: http://www.subhand.net/
+*/
+
+
+/* common
+---------------------------------------------*/
+* {margin:0;padding:0;}
+
+a:link,a:visited {
+	color: #000000;
+	text-decoration:none;
+}
+a:hover,a:active {
+	color: #d90909;
+	text-decoration:underline;
+}
+
+.impact   {font-size:20pt; font-weight:bold;}
+.impact2  {color:red;}
+.impact3  {background:yellow; color:#000;}
+#impact4  {underline;}
+.impact5  {background:#173B50; padding:2px 5px; color:#fff;}
+.impact6  {background:#f4f4f4; padding:3px; line-height:1.1;}
+.impact7  {background: #B60000; padding:2px 5px; color:#fff;}
+.style2   {color: #FF0000}
+.style3   {color: #333333}
+.style4   {color: #000000}
+
+
+img{ border: none;}
+
+
+
+
+/* layout
+---------------------------------------------*/
+
+/*TopIntro-Start*/
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	min-width: 1100px;
+	
+  background-image: url(../images/bg.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	
+	
+	-webkit-text-size-adjust:none;
+	/* アンドロイドの文字崩れを防ぐ　PCの見た目と同じ文字サイズになる
+	　　アンドロイドの自動文字サイズ調整をオフにするコマンド
+---*/
+	
+  text-align:center;
+  font-size:35px;
+  font-family: 'Hiragino Kaku Gothic Pro', 'meiryo', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    color: #000;
+}
+
+
+
+
+#head1 { background: url("../images/bg.jpg") no-repeat top center; height:    1000px; } 
+#head2 { background: url("../images/header_02.png") no-repeat top center; height:    px; } 
+#head3 { background: url("../images/header_03.png") no-repeat top center; height:    px; } 
+#head4 { background: url("../images/header_04.png") no-repeat top center; height:    px; } 
+#head5 { background: url("../images/header_05.png") no-repeat top center; height:    px; } 
+#head6 { background: url("../images/header_06.png") no-repeat top center; height:    px; } 
+#head7 { background: url("../images/header_07.png") no-repeat top center; height:    px; } 
+#head8 { background: url("../images/header_08.png") no-repeat top center; height:    px; } 
+#head9 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+
+#head10 { background: url("../images/header_01.png") no-repeat top center; height:    px; } 
+#head11 { background: url("../images/header_01.png") no-repeat top center; height:    px; } 
+#head12 { background: url("../images/header_02.png") no-repeat top center; height:    px; } 
+#head13 { background: url("../images/header_03.png") no-repeat top center; height:    px; } 
+#head14 { background: url("../images/header_04.png") no-repeat top center; height:    px; } 
+#head15 { background: url("../images/header_05.png") no-repeat top center; height:    px; } 
+#head16 { background: url("../images/header_06.png") no-repeat top center; height:    px; } 
+#head17 { background: url("../images/header_07.png") no-repeat top center; height:    px; } 
+#head18 { background: url("../images/header_08.png") no-repeat top center; height:    px; } 
+#head19 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+
+#head20 { background: url("../images/header_01.png") no-repeat top center; height:    px; } 
+#head21 { background: url("../images/header_01.png") no-repeat top center; height:    px; } 
+#head22 { background: url("../images/header_02.png") no-repeat top center; height:    px; } 
+#head23 { background: url("../images/header_03.png") no-repeat top center; height:    px; } 
+#head24 { background: url("../images/header_04.png") no-repeat top center; height:    px; } 
+#head25 { background: url("../images/header_05.png") no-repeat top center; height:    px; } 
+#head26 { background: url("../images/header_06.png") no-repeat top center; height:    px; } 
+#head27 { background: url("../images/header_07.png") no-repeat top center; height:    px; } 
+#head28 { background: url("../images/header_08.png") no-repeat top center; height:    px; } 
+#head29 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+
+#head30 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head31 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head32 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head33 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head34 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head35 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head36 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head37 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head38 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head39 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+
+#head40 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head41 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head42{ background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head43 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head44 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head45 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head46 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head47 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head48 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+#head49 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+
+#head50 { background: url("../images/header_09.png") no-repeat top center; height:    px; } 
+
+
+
+/* 右に余白ができるときはheaderも含めてwrap0で囲う
+ overflow hiddenは　はみ出した部分を表示しない
+
+#wrap0 {overflow: hidden;}
+
+---*/
+
+
+
+#wrap {
+
+	background-image: url("../images/bgg.png");
+	background-repeat: repeat-y;
+	background-position: center top;
+	background-position:50% 0%;
+}
+
+#container {
+
+	text-align:left;
+	width:1000px;
+	margin:0 auto;
+	
+	
+}
+
+#text {
+
+	text-align:left;
+	width:850px;
+	margin:0 auto;
+	
+	
+}
+
+#footer{
+	
+	
+	font-size: 15px;
+}
+
+
+/*AOS---*/
+
+#mi01{
+    position: relative;
+    top: 120px;;
+    left: -20px;
+}
+
+
+
+
+
+
+
+/* 光るボタンのCSS*//* 光るボタンのCSS*//* 光るボタンのCSS*/
+
+
+.box{width:100%; max-width:1000px; margin-right:auto; margin-left:auto; position:relative;}
+.pt60{padding-top:60px;}
+.pb60{padding-bottom:60px;}
+
+
+
+@keyframes anime{
+0%{transform:scale(.95); opacity:1}
+90%{opacity:.1}to{transform:scale(1.2,1.2); opacity:0}
+}
+
+
+
+/*   光るボタン1    *//*   光るボタン1    *//*   光るボタン1    */
+
+.btn_box01 {
+    position: relative;
+    width: 865px;
+    height: 210px;
+    margin: 0 auto;
+    transition: .2s;
+    z-index: 1000;
+    top: 330px;
+    left:0px;
+}
+.btn_box01:before, .btn_box01:after {
+    content: "";
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 120px;
+    box-shadow: 0 0 50px rgb(0, 207, 0) inset;
+    animation: anime 2s ease-out infinite;
+}
+.btn_box01:after {animation-delay: .4s;}
+
+
+/*   光るボタン1    *//*   光るボタン1    *//*   光るボタン1    */
+
+
+
+/*   光るボタン2    *//*   光るボタン2    *//*   光るボタン2    */
+
+.btn_box02 {
+    position: relative;
+    width: 865px;
+    height: 210px;
+    margin: 0 auto;
+    transition: .2s;
+    z-index: 1000;
+    top: 0px;
+    left:0px;
+}
+.btn_box02:before, .btn_box02:after {
+    content: "";
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 120px;
+    box-shadow: 0 0 50px rgb(99, 243, 126) inset;
+    animation: anime 2s ease-out infinite;
+}
+.btn_box02:after {animation-delay: .4s;}
+
+
+/*   光るボタン2    *//*   光るボタン2    *//*   光るボタン2    */
+
+
+
+
+/*   光るボタン3    *//*   光るボタン3    *//*   光るボタン3    */
+
+.btn_box03 {
+    position: relative;
+    width: 865px;
+    height: 210px;
+    margin: 0 auto;
+    transition: .2s;
+    z-index: 1000;
+    top: 0px;
+    left:0px;
+}
+.btn_box03:before, .btn_box03:after {
+    content: "";
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 120px;
+    box-shadow: 0 0 50px rgb(99, 243, 126) inset;
+    animation: anime 2s ease-out infinite;
+}
+.btn_box03:after {animation-delay: .4s;}
+
+
+/*   光るボタン3    *//*   光るボタン3    *//*   光るボタン3    */
+
+
+/*   光るボタン4    *//*   光るボタン4    *//*   光るボタン4    */
+
+.btn_box04 {
+    position: relative;
+    width: 865px;
+    height: 210px;
+    margin: 0 auto;
+    transition: .2s;
+    z-index: 1000;
+    top: 0px;
+    left:0px;
+}
+.btn_box04:before, .btn_box04:after {
+    content: "";
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 120px;
+    box-shadow: 0 0 50px rgb(99, 243, 126) inset;
+    animation: anime 2s ease-out infinite;
+}
+.btn_box04:after {animation-delay: .4s;}
+
+
+/*   光るボタン4    *//*   光るボタン4    *//*   光るボタン4    */
+
+
+
+
+.ttl_img {
+    display:block;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.ttl_img0 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.img_h {transition: 0.5s;}
+.img_h:hover {opacity:0.7;}
+
+
+
+.shakemoney {
+    position: absolute;
+    left: 135px;
+    bottom: 145px;
+    z-index: 9999;
+    pointer-events: none;
+    animation: shakemoney_rotate 0.7s ease-in infinite alternate;
+}
+@keyframes shakemoney_rotate{
+    0% {transform: rotate( 0deg )}
+    100% {transform: rotate( -10deg )}
+}
+.shakemoney_rotate {
+	transform: rotate( -5deg );
+    position: absolute;
+    left: 515px;
+    top: 75px;
+}
+
+
+/* 光るボタンのCSS*//* 光るボタンのCSS*//* 光るボタンのCSS*/
