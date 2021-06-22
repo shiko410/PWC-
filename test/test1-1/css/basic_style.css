@@ -66,7 +66,10 @@ body {
 }
 
 
-
+#head38 {
+	margin-top: -1px;
+	padding-top: 70px;
+}
 
 #head1 { background: url("../images/header_01.png") no-repeat top center; height:    125px; }
 #head2 { background: url("../images/header_02.png") no-repeat top center; height:    260px; }
