@@ -65,6 +65,9 @@ body {
 	color: #000;
 }
 
+#head7 {
+	margin-top: -1px;
+}
 
 #head38 {
 	margin-top: -1px;
@@ -122,7 +125,7 @@ body {
 #head45 { background: url("../images/header_45.png") no-repeat top center; height:    224px; }
 #head46 { background: url("../images/header_46.png") no-repeat top center; height:    302px; }
 #head47 { background: url("../images/header_47.png") no-repeat top center; height:    150px; }
-#head48 { background: url("../images/header_48.png") no-repeat top center; height:    307px; }
+#head48 { background: url("../images/header_48.png") no-repeat top center; height:    306px; }
 #head49 { background: url("../images/header_49.png") no-repeat top center; height:    297px; }
 
 #head50 { background: url("../images/header_50.png") no-repeat top center; height:    695px; }
